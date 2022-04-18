@@ -69,7 +69,7 @@ The chest X-Rays images will be made publicly available after the first round of
 The TQI dataset contains a collection of twelve chest X-Rays employed as query images in the experiments reported in the above manuscript (06 ILD and 06 COVID-19).
 
 1. Flat TQI features
-    - File [CSV/DumpCleanedPcaFeatures-TQI](CSV/DumpCleanedPcaFeatures-TQI.csv) - Contains the final and scaled features after PCA transformation of deep features into a low-dimensional space following the Broken-Stick rule.
+    - File [CSV/DumpCleanedPcaFeatures-TQI.csv](CSV/DumpCleanedPcaFeatures-TQI.csv) - Contains the final and scaled features after PCA transformation of deep features into a low-dimensional space following the Broken-Stick rule.
 
 2. Relational TQI data 
     - File [SiREN-SQL/DDL_CREATE_TABLE_HC-CXRAY-INT.sql](SiREN-SQL/DDL_CREATE_TABLE_HC-CXRAY-INT.sql) - Contains the definition of the *U_Lung2D* table representing TQI images and metadata. It also includes the internal inserts for the [CBIR WebHigiia](https://github.com/marcosivni/webhigiia) describing the metadata attributes.
