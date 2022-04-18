@@ -69,25 +69,25 @@ The chest X-Rays images will be made publicly available after the first round of
 The TQI dataset contains a collection of twelve chest X-Rays employed as query images in the experiments reported in the above manuscript (06 ILD and 06 COVID-19).
 
 1. Flat TQI features
-    - File [CSV/Flat HC-CXRay-INT features](CSV/Flat HC-CXRay-INT features) - Contains the final and scaled features after PCA transformation of deep features into a low-dimensional space following the Broken-Stick rule.
+    - File [CSV/DumpCleanedPcaFeatures-TQI](CSV/DumpCleanedPcaFeatures-TQI.csv) - Contains the final and scaled features after PCA transformation of deep features into a low-dimensional space following the Broken-Stick rule.
 
 2. Relational TQI data 
     - File [SiREN-SQL/DDL_CREATE_TABLE_HC-CXRAY-INT.sql](SiREN-SQL/DDL_CREATE_TABLE_HC-CXRAY-INT.sql) - Contains the definition of the *U_Lung2D* table representing TQI images and metadata. It also includes the internal inserts for the [CBIR WebHigiia](https://github.com/marcosivni/webhigiia) describing the metadata attributes.
     - File [SiREN-SQL/DDL_INSERTS_TQI.sql](SiREN-SQL/DDL_INSERTS_TQI.sql) - Contains the insertion script for TQI image and attributes. 
 
 3. Raw DICOM studies
-    - *Case 01:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.2021120212345323.354749101147148383869)
-    - *Case 02* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202123718669.29247133079929098951)
-    - *Case 03:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202123831525.92891755321331241415)
-    - *Case 04:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202123844373.31524973759955746331)
-    - *Case 05:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124040344.54323040926621634711)
-    - *Case 06:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124050320.48158125511186015744)
-    - *Case 07:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124059169.64929550105269381081)
-    - *Case 08:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.2021120212417509.471406384545835036236)
-    - *Case 09:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124117244.49312422957808574127)
-    - *Case 10:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124438567.96196473667257865110)
-    - *Case 11:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124136451.82606447305416332928)
-    - *Case 12:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124145372.38173796896874918298)
+    - *Case 01:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.2021120212345323.354749101147148383869).
+    - *Case 02:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202123718669.29247133079929098951).
+    - *Case 03:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202123831525.92891755321331241415).
+    - *Case 04:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202123844373.31524973759955746331).
+    - *Case 05:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124040344.54323040926621634711).
+    - *Case 06:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124050320.48158125511186015744).
+    - *Case 07:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124059169.64929550105269381081).
+    - *Case 08:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.2021120212417509.471406384545835036236).
+    - *Case 09:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124117244.49312422957808574127).
+    - *Case 10:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124438567.96196473667257865110).
+    - *Case 11:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124136451.82606447305416332928).
+    - *Case 12:* Available [here](https://www.dicomlibrary.com?study=1.3.6.1.4.1.44316.6.102.1.20211202124145372.38173796896874918298).
     
 
 ### WiaChestExtract setup files
